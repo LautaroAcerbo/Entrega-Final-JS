@@ -1,0 +1,171 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.card{
+    height: 430px;
+    margin: 40px;
+}
+
+.logo1{
+    border-radius: 10px;
+}
+
+
+img{
+    height: 286px;
+}
+
+.titulo{
+    color: orange;
+    text-decoration: underline;
+}
+
+.subtitulo{
+    text-align: center;
+    margin-top: 15px;
+    color: orange;
+}
+
+.btn{
+    color: black;
+    background-color: orange;
+    
+}
+
+.btn:hover {
+    color: white;
+    background-color: green
+}
+
+.navegacion{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 25px;
+    margin: 0;
+}
+
+.navegacion ul li{
+    display: inline-block;
+}
+
+.navegacion ul li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    margin: 100px;
+}
+
+header{
+    background-color: black;
+}
+
+.mayor{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.carrito-padre{
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+
+.carrito-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0a0909;
+    color: white;
+    width: 100%;
+}
+
+.carrito-titulo{
+    justify-self: start;
+}
+.boton-cancelar{
+    cursor: pointer;
+}
+
+.carrito-padre > .carrito-contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+
+.carrito-padre > div > img {
+    height: 120px;
+    width: 120px;
+}
+
+.total-carrito{
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.borrar-producto{
+    cursor: pointer;
+}
+
+.cantidad-carrito{
+    
+    background-color:red;
+    color:white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 4px;
+    top: 165px;
+    right: 14px;
+    position: absolute;
+    display: none;
+}
+
+.ver-carrito{
+    background-color: orange;
+    border-radius: 10px;
+    color: black;
+    font-size: 40px;
+}
+
+.sumar{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.restar{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.boton-finalizar{
+    width: 300px;
+    height: 50px;
+    margin-left: 800px;
+    background-color: orange;
+    color: white;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
